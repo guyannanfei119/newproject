@@ -10,3 +10,6 @@ def music(request):
 
 def video(request):
     return  HttpResponse("视频3")
+
+def xiaoshuo(request):
+    return  HttpResponse("小说4")
