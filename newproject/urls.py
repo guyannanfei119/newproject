@@ -22,4 +22,5 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^book/$', views.book),
     url(r'^music/$', views.music),
+    url(r'^video/$', views.video),
 ]
