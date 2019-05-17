@@ -21,4 +21,5 @@ from web import views
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^book/$', views.book),
+    url(r'^music/$', views.music),
 ]
