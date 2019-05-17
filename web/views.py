@@ -13,3 +13,6 @@ def video(request):
 
 def xiaoshuo(request):
     return  HttpResponse("小说4")
+
+def movie(request):
+    return  HttpResponse("电影5")
